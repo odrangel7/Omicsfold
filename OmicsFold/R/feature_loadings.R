@@ -100,8 +100,8 @@ diablo.selection.stability <- function(diablo.perf, comp, block) {
 
   melted <- reshape2::melt(stable.wms)
   stability.mean <- melted %>%
-    group_by(Var1) %>%
-    summarise(stability = mean(value)) %>%
+    dplyr::group_by(Var1) %>%
+    dplyr::summarise(stability = mean(value)) %>%
     arrange(desc(stability)) %>%
     dplyr::filter(!is.na(Var1)) %>%
     as.data.frame()
