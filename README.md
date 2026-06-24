@@ -78,12 +78,10 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 BiocManager::install("metagenomeSeq")
 BiocManager::install("org.Mm.eg.db")
-install.packages("XML", repos = "http://www.omegahat.net/R")
-source("http://labs.genetics.ucla.edu/horvath/htdocs/CoexpressionNetwork/GeneAnnotation/installAnRichment.R")
-installAnRichment()
 source('install.R')
 install.omicsfold()
 ```
+
 For installation using nextflow (https://www.nextflow.io/docs/latest/getstarted.html) please see https://github.com/AstraZeneca/Omicsfold/tree/master/OmicsFold/nextflow_pipeline
 
 ### Usage
