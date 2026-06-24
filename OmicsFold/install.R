@@ -68,9 +68,6 @@ install.omicsfold <- function(omicsfold.path = '.', force = FALSE, ...) {
     .install.specific.version('foreign', '0.8-76', ...)
   }
 
-  source("http://labs.genetics.ucla.edu/horvath/htdocs/CoexpressionNetwork/GeneAnnotation/installAnRichment.R")
-  installAnRichment()
-
   # Install OmicsFold itself
   .install.from.local(omicsfold.path, force = force, ...)
 }
