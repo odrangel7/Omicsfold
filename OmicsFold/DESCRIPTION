@@ -1,7 +1,7 @@
 Package: OmicsFold
 Type: Package
 Title: Toolkit containing Utilities for Integration of Multi-omic data
-Version: 1.0.1
+Version: 1.0.2
 Authors@R: c(
     person("Shameer", "Khader", email = "shameer.khader@astrazeneca.com", role = c("own", "pdr")),
     person("Carlos", "Roca", email = "carlos.roca@astrazeneca.com", role = c("cre")),
@@ -39,8 +39,6 @@ Imports:
     grid,
     ggforce,
     WGCNA,
-    anRichment,
-    anRichmentMethods,
     GO.db,
     org.Mm.eg.db
 Suggests:
