@@ -57,7 +57,7 @@ install.omicsfold <- function(omicsfold.path = '.', force = FALSE, ...) {
   }
 
   # Install the dependencies of OmicsFold
-  .install.from.github('mixOmicsTeam/mixOmics', ref = '2c22e7f', ...)
+  .install.from.github('mixOmicsTeam/mixOmics', ref = 'master', ...)
   .install.from.bioconductor('org.Mm.eg.db', ...)
   .install.from.cran('rlang', ...)
   .install.from.cran('backports', ...)
