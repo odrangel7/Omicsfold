@@ -6,6 +6,17 @@
 
 ### Multi-omics data normalisation, model fitting, and visualisation.
 
+## ⚠️ Maintenance Notice
+
+This is a maintained fork of [AstraZeneca/Omicsfold](https://github.com/AstraZeneca/Omicsfold), 
+which appears to be no longer actively maintained.
+
+### Fixes Applied in This Fork
+- **Fixed installation issues** - Removed deprecated `anRichment` package dependency that was causing installation failures
+- **Updated installation instructions** - Simplified setup process for both standard R and conda environments
+
+For the latest working version with bug fixes, please use this fork.
+
 ## Overview
 
 This is a utility R package containing custom code and scripts developed to
